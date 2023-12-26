@@ -26,6 +26,7 @@ app.post('/encounter', async(req, res) => {
         console.log(error.message);
         res.status(500).json({message: error.message})
     }
+    
 })
 
 app.post('/vitals', async(req, res) => {
